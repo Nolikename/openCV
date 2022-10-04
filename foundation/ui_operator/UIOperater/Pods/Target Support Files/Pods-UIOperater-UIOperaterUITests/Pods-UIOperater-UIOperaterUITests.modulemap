@@ -1,0 +1,6 @@
+framework module Pods_UIOperater_UIOperaterUITests {
+  umbrella header "Pods-UIOperater-UIOperaterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

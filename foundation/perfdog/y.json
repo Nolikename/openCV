@@ -1,0 +1,57 @@
+{
+    "ProductName": "Unknown ProductName",
+    "OS": "IPH",
+    "OSVer": "15.4.1",
+    "AppName": "PerformanceMonitor_Example",
+    "AppVersion": "1.0",
+    "AppBuildNum": 1,
+    "DeviceName": "iPhone 12",
+    "VideoKey": "",
+    "RecordStartTime": "1651839257565",
+    "RecordEndTime": "1651839258307",
+    "Conclusion": "pass",
+    "Detail": [
+        {
+            "CaseName": "1",
+            "Conclusion": "pass",
+            "Result": [
+                {
+                    "ComputingPercent": 90.000000,
+                    "MaxValue": "0.00",
+                    "Cause": "-",
+                    "recordStage": "0,1",
+                    "Name": "耗时测试1",
+                    "ThresholdUp": 10,
+                    "Threshold": 2,
+                    "ThresholdDown": 10,
+                    "Average": "0.00",
+                    "MinValue": "0.00",
+                    "ComparisonMode": 0,
+                    "Unit": "ms",
+                    "Conclusion": "pass",
+                    "Type": "string",
+                    "Value": "",
+                    "HideChat": 0
+                },
+                {
+                    "ComputingPercent": 90.000000,
+                    "MaxValue": "0.00",
+                    "Cause": "-",
+                    "recordStage": "-1,2",
+                    "Name": "耗时测试2",
+                    "ThresholdUp": 10,
+                    "Threshold": 2,
+                    "ThresholdDown": 10,
+                    "Average": "0.00",
+                    "MinValue": "0.00",
+                    "ComparisonMode": 0,
+                    "Unit": "ms",
+                    "Conclusion": "pass",
+                    "Type": "string",
+                    "Value": "",
+                    "HideChat": 0
+                }
+            ]
+        }
+    ]
+}

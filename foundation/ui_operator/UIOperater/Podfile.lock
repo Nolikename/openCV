@@ -1,0 +1,21 @@
+PODS:
+  - PerformanceMonitoriOS (2.0.9)
+
+DEPENDENCIES:
+  - PerformanceMonitoriOS (from `http://git.woa.com/PerformancePlatform/PerformanceMonitoriOS.git`)
+
+EXTERNAL SOURCES:
+  PerformanceMonitoriOS:
+    :git: http://git.woa.com/PerformancePlatform/PerformanceMonitoriOS.git
+
+CHECKOUT OPTIONS:
+  PerformanceMonitoriOS:
+    :commit: 2b5874fa5774b8659388ede52c54dd32640f0ab1
+    :git: http://git.woa.com/PerformancePlatform/PerformanceMonitoriOS.git
+
+SPEC CHECKSUMS:
+  PerformanceMonitoriOS: 9a4dab3e8e487bb10c4d9a8e061d8a3d7a3d7291
+
+PODFILE CHECKSUM: 9fdd3d6f329cc908d234169f97d41a1f66f66ce6
+
+COCOAPODS: 1.11.2

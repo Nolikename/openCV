@@ -1,0 +1,51 @@
+{
+    "DeviceName": "iPhone 6s",
+    "Detail": [
+        {
+            "Result": [
+                {
+                    "Index": "Memory",
+                    "Type": "string",
+                    "ComparisonMode": 0,
+                    "Name": "fpsname",
+                    "TestStageList": [
+                        {
+                            "Start": "1650772068395",
+                            "End": "1650772194686",
+                            "StageIndex": "1"
+                        },
+                        {
+                            "Start": "1650772194686",
+                            "End": "1650772318736",
+                            "StageIndex": "2"
+                        }
+                    ],
+                    "ComputingPercent": 90.0,
+                    "Average": "0.00",
+                    "CalculationStage": "1,2",
+                    "MaxValue": "0.00",
+                    "Value": "",
+                    "MinValue": "0.00",
+                    "ThresholdDown": 10,
+                    "CalculationMethod": "diff",
+                    "ThresholdUp": 10,
+                    "Threshold": 2,
+                    "HideChat": 0,
+                    "Cause": "-",
+                    "Unit": "unit",
+                    "Conclusion": "pass"
+                }
+            ],
+            "CaseName": "1",
+            "Conclusion": "pass"
+        }
+    ],
+    "OSVer": "13.6",
+    "VideoKey": "",
+    "AppName": "QQ浏览器",
+    "Conclusion": "pass",
+    "OS": "IPH",
+    "AppVersion": "12.4.5",
+    "AppBuildNum": 12,
+    "ProductName": "iOS\u6027\u80fd\u6d4b\u8bd52022"
+}

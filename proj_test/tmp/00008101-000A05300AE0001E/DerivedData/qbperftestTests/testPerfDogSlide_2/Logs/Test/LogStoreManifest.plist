@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>274B82E8-EBB3-45D0-9C3D-5B3989F15A4F</key>
+		<dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-Transient Testing-2022.04.23_16-11-05-+0800.xcresult</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>temporary Workspace</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Transient Testing</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Test Transient Testing</string>
+			<key>timeStartedRecording</key>
+			<real>672394265.11726701</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test Transient Testing</string>
+			<key>uniqueIdentifier</key>
+			<string>274B82E8-EBB3-45D0-9C3D-5B3989F15A4F</string>
+		</dict>
+		<key>A3335418-6C87-47C7-84E5-B9368F35A1DE</key>
+		<dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-Transient Testing-2022.04.23_16-11-20-+0800.xcresult</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>temporary Workspace</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Transient Testing</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Test Transient Testing</string>
+			<key>timeStartedRecording</key>
+			<real>672394280.66590297</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test Transient Testing</string>
+			<key>uniqueIdentifier</key>
+			<string>A3335418-6C87-47C7-84E5-B9368F35A1DE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

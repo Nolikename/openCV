@@ -1,0 +1,1124 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005F26E4F6982DD5D35BE3605652F218 /* DMNetworkTrafficManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD9A0E1FA1800CB8628F6F8771D706 /* DMNetworkTrafficManager.m */; };
+		008417E063B709C3A794AF73AF65F7DE /* DMURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0A208026A0EE4BA25322796533FF9 /* DMURLProtocol.m */; };
+		0084A405380C3D3133F8A2A3764925D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		037EF064071CF514E7F5A74A4EC56F4C /* TemperatureIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB99BE382A5FFBFDD006FCDE9BBB4B7 /* TemperatureIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AB62EF8805757637599971AD5806A1 /* MemScraper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC24830503A7BF075E737239A1B1EE31 /* MemScraper.m */; };
+		0738695AA1BE3E2D3D210CDFEDC498FA /* PFCaculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB70F658E6CB57123ECFCF3036A01 /* PFCaculator.m */; };
+		076A34F1FC2BD5F51DE8AFAE93E8ACBD /* CPUScraper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1708EEFF07AF048A848711CA379964AB /* CPUScraper.m */; };
+		0829B239BB0526F41F177BABB8F3B4E7 /* NSDictionary+value.h in Headers */ = {isa = PBXBuildFile; fileRef = 319B29221C1550D049FE725BD95975B7 /* NSDictionary+value.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		085881DEEE20D31099F7D9A6183910BE /* NSDictionary+value.m in Sources */ = {isa = PBXBuildFile; fileRef = 4329301A7441DF5483062775A4EC1D09 /* NSDictionary+value.m */; };
+		086F45EA03B544FB250D6B31B3E28B2B /* Stage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8837F72E1B1EB597729088204674C5 /* Stage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092EA0574CB76B2E1FAD4541EFE48496 /* TemperatureTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C328243A667602B2E61F26277A0AA43 /* TemperatureTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A84480BD5F59AC6D43BE24A1C05BB9C /* Pods-UIOperater-UIOperaterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DD024F0BE93E97C3F87C00F5F4819A /* Pods-UIOperater-UIOperaterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E36CBDD35DC820590687DD6027F0FB9 /* BasicTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B46495F7E2168413E04C26F6985168 /* BasicTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1208D47A3974E872EA39D46070F29CC2 /* NetworkTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 85121AD20E0091767445716B576510E4 /* NetworkTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12EF022F5CB59386B59ADFF3A09D4C04 /* PerformanceMonitoriOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F24748DFB937E686D61A7E8D64BF6A3 /* PerformanceMonitoriOS-dummy.m */; };
+		181EEFA13792FD0B6F7D7A108D258875 /* TrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CA8014E5371A7C22DA999362D90609 /* TrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E6727E3ABFC0AC6F21CFF3D42DF28C8 /* NSURLResponse+DoggerMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D627635F246E0DD36D5AD6DA60BAF32 /* NSURLResponse+DoggerMonitor.m */; };
+		20874CABF151EE5F31E872278CC28CD3 /* FPSScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A8835B69C51FB3B09C2F69A9A87767 /* FPSScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		208FC1F6277C6F6E1BC0C528FEB9C55C /* DMNetworkTrafficLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA988309AAA112F1043050D58EECB945 /* DMNetworkTrafficLog.m */; };
+		221D42CACBEC95EAFA835AE77ED5E7B4 /* RecordTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = E1510D26F9114AC08EA22D6A90B618D6 /* RecordTracker.m */; };
+		23ACFC2A26FFDB710BF040BD452A111C /* Indicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 958E3A01C0067D2CD5DDFFF05E444B2D /* Indicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23CE0C367D60004A727DF44D4469AF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		297593302E9B8FDD7460589D0CD15135 /* Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F834FFBE60FF10A6D26B5F19FE8AE6 /* Indicator.m */; };
+		2FFA8F8D97F1477C09B5D418CC3ECA81 /* PFDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDF0D2F64E7DACFC7A0DFE7BD6BF255 /* PFDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D98AE2EE7EE431C8A7FC1D65BFB719 /* DMDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBE7CE9706A2DD30DBAEF87A313BDA9 /* DMDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366C455985041E9CE360B0E2B424CE38 /* PerfDogIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 17254DF5B2DF45434167D968C5E0F394 /* PerfDogIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BC95CBA4C5C3B3F8A9AFA837FBFA08F /* PFDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C8AD6A168805FD402F4533FE73B1F /* PFDataManager.m */; };
+		4019D64D60F4C5CBF1D2E880DC07CE2D /* Pods-UIOperater-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2D36FEBFED3EA0716FDEDF51C011E9 /* Pods-UIOperater-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4033BD8DAAE696F2C195AA2DA43ED88F /* RecordIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7D2DFCC265C18C18D3A55AFB93FBE /* RecordIndicator.m */; };
+		41BEF8D0FA1537925E48C0C6EA875199 /* GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BBB83410D5CFA01BE927F0913C7F28 /* GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42456D968A86368FC5C73CAAA7AF3DE3 /* CPUScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA0348CFBCF0FD1EDC604E1A2195E0D /* CPUScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4613DBE5CA52C1DA54E035F125B03A0B /* NetworkTrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 17377A8854AA82A023E8497CEF6558F5 /* NetworkTrackerFactory.m */; };
+		48B96AEDC66150507DD3E79F886FB24F /* Pods-UIOperater-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2920CFEE3149EC62041F6F26468435 /* Pods-UIOperater-dummy.m */; };
+		499867274FD2E4D2110ACE3937EC01A0 /* EPDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7394B3ED3A0DA8E5F37106C72BA739FE /* EPDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EBFCF3A5CE19963FD1FD5A56E9674B /* PerfDogConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E083513BCBD0BCB4A15E9AF9A6C41B53 /* PerfDogConst.m */; };
+		4BDF2A5E84395E51D09B16066D6A9A2E /* TrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05655E91CEF12EE2C3D5527A582E45DA /* TrackerFactory.m */; };
+		4E90A46DCE5B71107BD505A2A38F9BAB /* NetworkDownloadScraper.m in Sources */ = {isa = PBXBuildFile; fileRef = 127B718859090775A8D7996CBF060DBE /* NetworkDownloadScraper.m */; };
+		4E9CBE28375331831B03F2EC4F420875 /* NetworkDownloadScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = 606BC95189056D17DF8332E121279B1C /* NetworkDownloadScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54AD8FB21A794B66DF8137DC178BA946 /* Tracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 828447B8B534373E3DD97C61A8452AF0 /* Tracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561D6037D45D538FB4494CF741319F4C /* RecordTrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277576F30E7D1D552203A5606D1135A /* RecordTrackerFactory.m */; };
+		5879933E35E260607497594AF9819AA5 /* TemperatureTrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C594E0066BCF1B3D008C9B527369D7 /* TemperatureTrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6113EAF525BFD18AC396E99F36A26E0E /* RecordTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 34557D04D4D9E2BF62D7717255C01C81 /* RecordTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A1C38503FAA7F08202AC4191155061 /* PerfDogIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8DF960A8B8CD51D5627C0540BC98F6 /* PerfDogIndicator.m */; };
+		61B99120F29EF2712A5A4711FA827532 /* NSURLResponse+DoggerMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7936524CC4AD5EE9A0D19A2D231148B0 /* NSURLResponse+DoggerMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623BC0BEE250E079C36D6026B1CE7183 /* NetworkIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2293217B753DD044CEDB55373292A94 /* NetworkIndicator.m */; };
+		625EC3B553A6451407F7A49E148693E5 /* MemoryIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = C5D80A3007EF9AF965AE8597616C82D8 /* MemoryIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A8A88A995A309235B08C7A21B2BD84 /* PerfDogTrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D7AD446F9A386CB60DF4631D8D1E0B3 /* PerfDogTrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6629FBDC7C4578CDEACF5A5B460A7DF9 /* DMURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D093D295BF72067D32CD810516EE45F2 /* DMURLSessionConfiguration.m */; };
+		66D64AF7A0748AC03807E6B94B7EB32B /* FPSIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 611A166167B923A889157755F5B44203 /* FPSIndicator.m */; };
+		692949C66B068E8C2784A126FA664A77 /* PFTestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DBC8709290E9A8D8D90B64471BDB6B /* PFTestInfo.m */; };
+		6ABF83C6204BF5A4240DC520AE336223 /* CPUIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 541FDA5645DB159202F78E3B499BC739 /* CPUIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C758845ABFA2CD1B1BACFC57096F8CF /* DMURLSessionConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4122B0E21732C32BCB8114F5493AD2D0 /* DMURLSessionConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CEDC7525BE4E01295D9DC9F3FABAE18 /* EPTestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3E231D4F6A49C88CD146A7D94E624E /* EPTestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6BFD6A3BD53620DD7EAFF093370A74 /* NSData+GZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D5C8DCE3EA428280159DBC394DC2C8 /* NSData+GZIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70D6DAFB850484ADFB13BB57BD54BED3 /* DMDataManager+NetworkTraffic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269AD4123C89FE92885DC5A4EA31479 /* DMDataManager+NetworkTraffic.m */; };
+		727C5B06AF268848E90F4726EE400479 /* NetSpeed.h in Headers */ = {isa = PBXBuildFile; fileRef = C5808E909A17C3ED8619230046A08C2B /* NetSpeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7523865293F464FFD62257B8923CBFD0 /* RecordIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 999421B4239C36AE1A96ED3C56881F82 /* RecordIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A923CD0A55125CC1381AD94C64EE18B /* PFDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3298CA2686CAB6B51ABB6278CD3E0336 /* PFDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0BBBB593F0E785FD05690D0DFED365 /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = BE78C1BE7AB2BA6A7AA7C4AE7747956E /* Stage.m */; };
+		7F169ACED4CD711DD6834CFF414E477F /* TemperatureTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AF5A1F011B990842567238706CA78 /* TemperatureTracker.m */; };
+		855C9125E73C81D09503A3091EB28241 /* PFAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B38B14654B8A23AB404FC4E0C4B588 /* PFAppInfo.m */; };
+		8770FD3AE618784070A290036106A60B /* PerfDogTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 612F5A0187CFE3B4B97C3AB1CFD5D304 /* PerfDogTracker.m */; };
+		8AF61A7A48220A33EB64688EA91B2E6E /* RecordTrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1915635F113C96F7DF0F80F9DD4120 /* RecordTrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D34BA9C6E5F2DF286ECFC7490BD76FB /* NSURLRequest+DoggerMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692792E2B8D2B48B8494C4738BBFF49 /* NSURLRequest+DoggerMonitor.m */; };
+		91C2572D10B8BF853553A26140C14E08 /* TemperatureTrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC13802973E8EF8062E5FF00D7C8D96 /* TemperatureTrackerFactory.m */; };
+		9373395BFE6B7EB1B6E073B69B294FE3 /* DMNetworkTrafficManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D224A203AB881F0B68A742DE5BFC1CB0 /* DMNetworkTrafficManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F328300E76E6EDA30B1CD5A804A468 /* NetworkIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 67218FF336C6ADE43F075C05773DD219 /* NetworkIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99B96AF33CB0C031BE060F6B389DD8DF /* NetworkTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD9DA0A0AD71B1BC28B9DC97488A91 /* NetworkTracker.m */; };
+		9A426C048B0D3AD16DD277459B510E08 /* DMURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6236BF2D9BE6B139135BC9388FB30676 /* DMURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A555FB47BEFA17839DC82F00FFB4E0F /* PerformanceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B31343D6CCF46A2D05628C4480BF96 /* PerformanceMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF1363D1116CE744C8BA5D089A5A26C /* NSData+GZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = A64FE5CC00CFBF318BD253DD1755C910 /* NSData+GZIP.m */; };
+		9B3B2D49C63451780D1A4DB4E3D151A0 /* PerfDogConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 9022871647B8DAEEC1DA93372948D69F /* PerfDogConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7868B7AFE469E0193A1921270A85BD /* MemoryIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D471849EEA447A8691C58A7734891551 /* MemoryIndicator.m */; };
+		9CA23CFA6654844147438AC747CFC2CA /* NSString+append.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F726414F36BE6822E417EE912862C /* NSString+append.m */; };
+		A191B3D863D1B83F916B4328D9E3F815 /* MemScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DEB5F77B7FDCC9883A01A57C4417C92 /* MemScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E84D339C2570FC1C0C7BFF54220787 /* CPUIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE46560BD69C8A320DF135F621F74E4 /* CPUIndicator.m */; };
+		A34DF862A8C95C480C8CD3E86645C892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC6E9CD1302D06C924D0DDF363FE1A52 /* PerfDogTrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE76E6AE543D763840FF3DAFFA465A3 /* PerfDogTrackerFactory.m */; };
+		B04907A2CE4A5FF4A7590A28E1C54EB4 /* PFTestInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CEB41E451DA3806896B7F8A68619E61 /* PFTestInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F71D6BEC2925093D55BDB0C1AA7C8E /* Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 450867AE0DB925D85A15A5E552361FF9 /* Tracker.m */; };
+		BBC7625D9921EA2BF980C42099CC1E32 /* EPTestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1777F83AC52B2DF206E39642E3462C1F /* EPTestConfig.m */; };
+		BD3EC040647243A0ECD7BFF4D9997F27 /* DMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C381F5FC51FCB9DCA05C6E06016C6A7 /* DMDataManager.m */; };
+		C1955FC10AF028BAF1379784E784310D /* FPSIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F70140E9651A27AE57021E370FAC887 /* FPSIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7AF6CF7BE47DC0AB640B198A70520D2 /* PerformanceMonitoriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E418F6CA48AC063F979CF91189096EA5 /* PerformanceMonitoriOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B8634F7618BBCD384D1C0036F70BD4 /* NSString+append.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B2B3F1A59FED8071774360E7A14117 /* NSString+append.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C914FEE42150ED0079641E21344A9EED /* BasicTrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C510B3D49B17DE72D14382EFA20525 /* BasicTrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3C4800B89BB65AE26F3A04FEF3D2E7 /* TemperatureIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6D66B7680A3AB4B3EF486C51251C2 /* TemperatureIndicator.m */; };
+		CF7BE10D5B5F79DB2802668EB70AE826 /* DMDataManager+NetworkTraffic.h in Headers */ = {isa = PBXBuildFile; fileRef = 4450278D0108312D15545C3F63B934EE /* DMDataManager+NetworkTraffic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22672869C70A80D7BF404ABB66BA0D7 /* PerfDogTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3186C820E4B1C3FD1FEB26D542A56D /* PerfDogTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB62DF8AED6F674F12B41ABFB43A7E94 /* NetworkTrackerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD0065019C5763BEF1F5D25B7DD144E /* NetworkTrackerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB1C6C08F58B6582B1D1CDF7589BDBA /* Pods-UIOperater-UIOperaterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C69EDF6EF4D0054327A98041DADA3D /* Pods-UIOperater-UIOperaterUITests-dummy.m */; };
+		EA4AD8D3A0DE2AF9B6B00E53264DA75B /* BasicTrackerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8ACB2642F181873457D4D345B6E78 /* BasicTrackerFactory.m */; };
+		F0511A11BBC9390B2984E1147C16A3BD /* DMNetworkTrafficLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F5920D76B9CE55D9A20FB496B76E14 /* DMNetworkTrafficLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F18F19FBB57A614B76449632F5AF7F9E /* FPSScraper.m in Sources */ = {isa = PBXBuildFile; fileRef = C814464B26449E9F75B3114D39C04F2E /* FPSScraper.m */; };
+		F31D3F1F63D9E5FCB45D0BE9B340B295 /* PFCaculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E0BB57DCB9115E35265EFCFC4DADBD /* PFCaculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48E662C2D47AFCF3937D641F6D6574A /* PFDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9827C87859B37178140F845EB034CC1B /* PFDeviceInfo.m */; };
+		F66F7D45C73BBC7CB0C850838DD55B1A /* NSURLRequest+DoggerMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5E78BFC61980E79DD89F9F09F4DE52 /* NSURLRequest+DoggerMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F783C743EB6BEC94520F35F12460F171 /* PFAppInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7CE8BB56D43BE397AD4BB73BCC4024 /* PFAppInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F865DEE589413B93C0334B93A7281846 /* BasicTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D085E40D0B0FC933D84941EB500B6A2 /* BasicTracker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99305C5605C86F3FA394D6305AB801C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37CA775E28D46B8BFA4CDBB017FDCFE;
+			remoteInfo = PerformanceMonitoriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019F726414F36BE6822E417EE912862C /* NSString+append.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+append.m"; path = "PerformanceMonitor/Classes/Category/NSString+append.m"; sourceTree = "<group>"; };
+		05655E91CEF12EE2C3D5527A582E45DA /* TrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrackerFactory.m; path = PerformanceMonitor/Classes/Factory/TrackerFactory.m; sourceTree = "<group>"; };
+		07D5C8DCE3EA428280159DBC394DC2C8 /* NSData+GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+GZIP.h"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/GZIP/NSData+GZIP.h"; sourceTree = "<group>"; };
+		09CA8014E5371A7C22DA999362D90609 /* TrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackerFactory.h; path = PerformanceMonitor/Classes/Factory/TrackerFactory.h; sourceTree = "<group>"; };
+		0AC7D2DFCC265C18C18D3A55AFB93FBE /* RecordIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordIndicator.m; path = PerformanceMonitor/Classes/Indicator/RecordIndicator.m; sourceTree = "<group>"; };
+		0C3E231D4F6A49C88CD146A7D94E624E /* EPTestConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EPTestConfig.h; path = PerformanceMonitor/Classes/Config/EPTestConfig.h; sourceTree = "<group>"; };
+		0C46271ECF26C8CB4EFDBF10FD811422 /* Pods-UIOperater-UIOperaterUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIOperater-UIOperaterUITests-Info.plist"; sourceTree = "<group>"; };
+		0CE8ACB2642F181873457D4D345B6E78 /* BasicTrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicTrackerFactory.m; path = PerformanceMonitor/Classes/Factory/BasicTrackerFactory.m; sourceTree = "<group>"; };
+		0F7CE8BB56D43BE397AD4BB73BCC4024 /* PFAppInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFAppInfo.h; path = PerformanceMonitor/Classes/TestInfo/PFAppInfo.h; sourceTree = "<group>"; };
+		11DD024F0BE93E97C3F87C00F5F4819A /* Pods-UIOperater-UIOperaterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIOperater-UIOperaterUITests-umbrella.h"; sourceTree = "<group>"; };
+		127B718859090775A8D7996CBF060DBE /* NetworkDownloadScraper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkDownloadScraper.m; path = PerformanceMonitor/Classes/Scrapper/NetworkDownloadScraper.m; sourceTree = "<group>"; };
+		12E0BB57DCB9115E35265EFCFC4DADBD /* PFCaculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFCaculator.h; path = PerformanceMonitor/Classes/Tools/PFCaculator.h; sourceTree = "<group>"; };
+		14BBB83410D5CFA01BE927F0913C7F28 /* GZIP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GZIP.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/GZIP/GZIP.h; sourceTree = "<group>"; };
+		1708EEFF07AF048A848711CA379964AB /* CPUScraper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPUScraper.m; path = PerformanceMonitor/Classes/Scrapper/CPUScraper.m; sourceTree = "<group>"; };
+		17254DF5B2DF45434167D968C5E0F394 /* PerfDogIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PerfDogIndicator.h; path = PerformanceMonitor/Classes/Indicator/PerfDogIndicator.h; sourceTree = "<group>"; };
+		17377A8854AA82A023E8497CEF6558F5 /* NetworkTrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkTrackerFactory.m; path = PerformanceMonitor/Classes/Factory/NetworkTrackerFactory.m; sourceTree = "<group>"; };
+		1777F83AC52B2DF206E39642E3462C1F /* EPTestConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EPTestConfig.m; path = PerformanceMonitor/Classes/Config/EPTestConfig.m; sourceTree = "<group>"; };
+		1F70140E9651A27AE57021E370FAC887 /* FPSIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPSIndicator.h; path = PerformanceMonitor/Classes/Indicator/FPSIndicator.h; sourceTree = "<group>"; };
+		21DE6E961A7D2527D7A6D265F69D27FB /* PerformanceMonitoriOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PerformanceMonitoriOS.modulemap; sourceTree = "<group>"; };
+		2692792E2B8D2B48B8494C4738BBFF49 /* NSURLRequest+DoggerMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+DoggerMonitor.m"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/NSURLRequest+DoggerMonitor.m"; sourceTree = "<group>"; };
+		28B38B14654B8A23AB404FC4E0C4B588 /* PFAppInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFAppInfo.m; path = PerformanceMonitor/Classes/TestInfo/PFAppInfo.m; sourceTree = "<group>"; };
+		2AE46560BD69C8A320DF135F621F74E4 /* CPUIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CPUIndicator.m; path = PerformanceMonitor/Classes/Indicator/CPUIndicator.m; sourceTree = "<group>"; };
+		2B2920CFEE3149EC62041F6F26468435 /* Pods-UIOperater-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIOperater-dummy.m"; sourceTree = "<group>"; };
+		2C381F5FC51FCB9DCA05C6E06016C6A7 /* DMDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMDataManager.m; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMDataManager.m; sourceTree = "<group>"; };
+		319B29221C1550D049FE725BD95975B7 /* NSDictionary+value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+value.h"; path = "PerformanceMonitor/Classes/Category/NSDictionary+value.h"; sourceTree = "<group>"; };
+		31E33498B62E4D6312AB8A0D4402C42D /* Pods-UIOperater */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIOperater"; path = Pods_UIOperater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3298CA2686CAB6B51ABB6278CD3E0336 /* PFDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDeviceInfo.h; path = PerformanceMonitor/Classes/TestInfo/PFDeviceInfo.h; sourceTree = "<group>"; };
+		337C25C1ACE75BA4305207FBCD6CC4B6 /* Pods-UIOperater-UIOperaterUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIOperater-UIOperaterUITests-frameworks.sh"; sourceTree = "<group>"; };
+		33B2B3F1A59FED8071774360E7A14117 /* NSString+append.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+append.h"; path = "PerformanceMonitor/Classes/Category/NSString+append.h"; sourceTree = "<group>"; };
+		34557D04D4D9E2BF62D7717255C01C81 /* RecordTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordTracker.h; path = PerformanceMonitor/Classes/Tracker/RecordTracker.h; sourceTree = "<group>"; };
+		37C69EDF6EF4D0054327A98041DADA3D /* Pods-UIOperater-UIOperaterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIOperater-UIOperaterUITests-dummy.m"; sourceTree = "<group>"; };
+		3ABEA8A358EB3FA8AD76C79DBD476B91 /* Pods-UIOperater-UIOperaterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIOperater-UIOperaterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BD6D66B7680A3AB4B3EF486C51251C2 /* TemperatureIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TemperatureIndicator.m; path = PerformanceMonitor/Classes/Indicator/TemperatureIndicator.m; sourceTree = "<group>"; };
+		3D3186C820E4B1C3FD1FEB26D542A56D /* PerfDogTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PerfDogTracker.h; path = PerformanceMonitor/Classes/Tracker/PerfDogTracker.h; sourceTree = "<group>"; };
+		3D8DF960A8B8CD51D5627C0540BC98F6 /* PerfDogIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PerfDogIndicator.m; path = PerformanceMonitor/Classes/Indicator/PerfDogIndicator.m; sourceTree = "<group>"; };
+		4122B0E21732C32BCB8114F5493AD2D0 /* DMURLSessionConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMURLSessionConfiguration.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMURLSessionConfiguration.h; sourceTree = "<group>"; };
+		4329301A7441DF5483062775A4EC1D09 /* NSDictionary+value.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+value.m"; path = "PerformanceMonitor/Classes/Category/NSDictionary+value.m"; sourceTree = "<group>"; };
+		4450278D0108312D15545C3F63B934EE /* DMDataManager+NetworkTraffic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DMDataManager+NetworkTraffic.h"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMDataManager+NetworkTraffic.h"; sourceTree = "<group>"; };
+		44C594E0066BCF1B3D008C9B527369D7 /* TemperatureTrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TemperatureTrackerFactory.h; path = PerformanceMonitor/Classes/Factory/TemperatureTrackerFactory.h; sourceTree = "<group>"; };
+		450867AE0DB925D85A15A5E552361FF9 /* Tracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Tracker.m; path = PerformanceMonitor/Classes/Tracker/Tracker.m; sourceTree = "<group>"; };
+		4A5E78BFC61980E79DD89F9F09F4DE52 /* NSURLRequest+DoggerMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+DoggerMonitor.h"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/NSURLRequest+DoggerMonitor.h"; sourceTree = "<group>"; };
+		4ACD9DA0A0AD71B1BC28B9DC97488A91 /* NetworkTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkTracker.m; path = PerformanceMonitor/Classes/Tracker/NetworkTracker.m; sourceTree = "<group>"; };
+		4CEB41E451DA3806896B7F8A68619E61 /* PFTestInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFTestInfo.h; path = PerformanceMonitor/Classes/TestInfo/PFTestInfo.h; sourceTree = "<group>"; };
+		4D0C8AD6A168805FD402F4533FE73B1F /* PFDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFDataManager.m; path = PerformanceMonitor/Classes/DataManager/PFDataManager.m; sourceTree = "<group>"; };
+		4F24748DFB937E686D61A7E8D64BF6A3 /* PerformanceMonitoriOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PerformanceMonitoriOS-dummy.m"; sourceTree = "<group>"; };
+		51B46495F7E2168413E04C26F6985168 /* BasicTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicTracker.h; path = PerformanceMonitor/Classes/Tracker/BasicTracker.h; sourceTree = "<group>"; };
+		5269AD4123C89FE92885DC5A4EA31479 /* DMDataManager+NetworkTraffic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DMDataManager+NetworkTraffic.m"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMDataManager+NetworkTraffic.m"; sourceTree = "<group>"; };
+		541FDA5645DB159202F78E3B499BC739 /* CPUIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPUIndicator.h; path = PerformanceMonitor/Classes/Indicator/CPUIndicator.h; sourceTree = "<group>"; };
+		57B31343D6CCF46A2D05628C4480BF96 /* PerformanceMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PerformanceMonitor.h; path = PerformanceMonitor/Classes/PerformanceMonitor.h; sourceTree = "<group>"; };
+		58F5920D76B9CE55D9A20FB496B76E14 /* DMNetworkTrafficLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMNetworkTrafficLog.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMNetworkTrafficLog.h; sourceTree = "<group>"; };
+		5C1AF5A1F011B990842567238706CA78 /* TemperatureTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TemperatureTracker.m; path = PerformanceMonitor/Classes/Tracker/TemperatureTracker.m; sourceTree = "<group>"; };
+		5CD0065019C5763BEF1F5D25B7DD144E /* NetworkTrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkTrackerFactory.h; path = PerformanceMonitor/Classes/Factory/NetworkTrackerFactory.h; sourceTree = "<group>"; };
+		5D085E40D0B0FC933D84941EB500B6A2 /* BasicTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasicTracker.m; path = PerformanceMonitor/Classes/Tracker/BasicTracker.m; sourceTree = "<group>"; };
+		5D7AD446F9A386CB60DF4631D8D1E0B3 /* PerfDogTrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PerfDogTrackerFactory.h; path = PerformanceMonitor/Classes/Factory/PerfDogTrackerFactory.h; sourceTree = "<group>"; };
+		5F2EB70F658E6CB57123ECFCF3036A01 /* PFCaculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFCaculator.m; path = PerformanceMonitor/Classes/Tools/PFCaculator.m; sourceTree = "<group>"; };
+		606BC95189056D17DF8332E121279B1C /* NetworkDownloadScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDownloadScraper.h; path = PerformanceMonitor/Classes/Scrapper/NetworkDownloadScraper.h; sourceTree = "<group>"; };
+		611A166167B923A889157755F5B44203 /* FPSIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPSIndicator.m; path = PerformanceMonitor/Classes/Indicator/FPSIndicator.m; sourceTree = "<group>"; };
+		612F5A0187CFE3B4B97C3AB1CFD5D304 /* PerfDogTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PerfDogTracker.m; path = PerformanceMonitor/Classes/Tracker/PerfDogTracker.m; sourceTree = "<group>"; };
+		6236BF2D9BE6B139135BC9388FB30676 /* DMURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMURLProtocol.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMURLProtocol.h; sourceTree = "<group>"; };
+		637A0B7A75E04A909D1BB0C3F22B2F95 /* Pods-UIOperater-UIOperaterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIOperater-UIOperaterUITests.modulemap"; sourceTree = "<group>"; };
+		65C510B3D49B17DE72D14382EFA20525 /* BasicTrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasicTrackerFactory.h; path = PerformanceMonitor/Classes/Factory/BasicTrackerFactory.h; sourceTree = "<group>"; };
+		67218FF336C6ADE43F075C05773DD219 /* NetworkIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkIndicator.h; path = PerformanceMonitor/Classes/Indicator/NetworkIndicator.h; sourceTree = "<group>"; };
+		67CB14F20A25EC960E7BD9CE9CF1653E /* Pods-UIOperater-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIOperater-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6BC13802973E8EF8062E5FF00D7C8D96 /* TemperatureTrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TemperatureTrackerFactory.m; path = PerformanceMonitor/Classes/Factory/TemperatureTrackerFactory.m; sourceTree = "<group>"; };
+		6DEB5F77B7FDCC9883A01A57C4417C92 /* MemScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemScraper.h; path = PerformanceMonitor/Classes/Scrapper/MemScraper.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7394B3ED3A0DA8E5F37106C72BA739FE /* EPDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EPDefine.h; path = PerformanceMonitor/Classes/Config/EPDefine.h; sourceTree = "<group>"; };
+		7936524CC4AD5EE9A0D19A2D231148B0 /* NSURLResponse+DoggerMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLResponse+DoggerMonitor.h"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/NSURLResponse+DoggerMonitor.h"; sourceTree = "<group>"; };
+		7D627635F246E0DD36D5AD6DA60BAF32 /* NSURLResponse+DoggerMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLResponse+DoggerMonitor.m"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/network/NSURLResponse+DoggerMonitor.m"; sourceTree = "<group>"; };
+		8277576F30E7D1D552203A5606D1135A /* RecordTrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordTrackerFactory.m; path = PerformanceMonitor/Classes/Factory/RecordTrackerFactory.m; sourceTree = "<group>"; };
+		828447B8B534373E3DD97C61A8452AF0 /* Tracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tracker.h; path = PerformanceMonitor/Classes/Tracker/Tracker.h; sourceTree = "<group>"; };
+		85121AD20E0091767445716B576510E4 /* NetworkTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkTracker.h; path = PerformanceMonitor/Classes/Tracker/NetworkTracker.h; sourceTree = "<group>"; };
+		873D8B81E8BC1010712F45CD30ABCC1D /* Pods-UIOperater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIOperater.release.xcconfig"; sourceTree = "<group>"; };
+		8C328243A667602B2E61F26277A0AA43 /* TemperatureTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TemperatureTracker.h; path = PerformanceMonitor/Classes/Tracker/TemperatureTracker.h; sourceTree = "<group>"; };
+		8CA0348CFBCF0FD1EDC604E1A2195E0D /* CPUScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CPUScraper.h; path = PerformanceMonitor/Classes/Scrapper/CPUScraper.h; sourceTree = "<group>"; };
+		8F2D36FEBFED3EA0716FDEDF51C011E9 /* Pods-UIOperater-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIOperater-umbrella.h"; sourceTree = "<group>"; };
+		9022871647B8DAEEC1DA93372948D69F /* PerfDogConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PerfDogConst.h; path = PerformanceMonitor/Classes/Indicator/PerfDogConst.h; sourceTree = "<group>"; };
+		958E3A01C0067D2CD5DDFFF05E444B2D /* Indicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Indicator.h; path = PerformanceMonitor/Classes/Indicator/Indicator.h; sourceTree = "<group>"; };
+		9827C87859B37178140F845EB034CC1B /* PFDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFDeviceInfo.m; path = PerformanceMonitor/Classes/TestInfo/PFDeviceInfo.m; sourceTree = "<group>"; };
+		999421B4239C36AE1A96ED3C56881F82 /* RecordIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordIndicator.h; path = PerformanceMonitor/Classes/Indicator/RecordIndicator.h; sourceTree = "<group>"; };
+		9C8837F72E1B1EB597729088204674C5 /* Stage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stage.h; path = PerformanceMonitor/Classes/Tools/Stage.h; sourceTree = "<group>"; };
+		9D1915635F113C96F7DF0F80F9DD4120 /* RecordTrackerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordTrackerFactory.h; path = PerformanceMonitor/Classes/Factory/RecordTrackerFactory.h; sourceTree = "<group>"; };
+		9D8672A73287D639210E31D6DA7F9BB8 /* PerformanceMonitoriOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PerformanceMonitoriOS-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A45BB6BC2454AAD4DDAF273FD815B396 /* Pods-UIOperater-UIOperaterUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIOperater-UIOperaterUITests"; path = Pods_UIOperater_UIOperaterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64FE5CC00CFBF318BD253DD1755C910 /* NSData+GZIP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZIP.m"; path = "PerformanceMonitor/Classes/Scrapper/NetMonitor/GZIP/NSData+GZIP.m"; sourceTree = "<group>"; };
+		A9D9482EAC8258BE20FE26EF3C573DA3 /* PerformanceMonitoriOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformanceMonitoriOS-prefix.pch"; sourceTree = "<group>"; };
+		AA988309AAA112F1043050D58EECB945 /* DMNetworkTrafficLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMNetworkTrafficLog.m; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMNetworkTrafficLog.m; sourceTree = "<group>"; };
+		ABA8A7F5CC6E74FB6335D41F60E82E88 /* PerformanceMonitoriOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PerformanceMonitoriOS; path = PerformanceMonitoriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2293217B753DD044CEDB55373292A94 /* NetworkIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkIndicator.m; path = PerformanceMonitor/Classes/Indicator/NetworkIndicator.m; sourceTree = "<group>"; };
+		B5A8835B69C51FB3B09C2F69A9A87767 /* FPSScraper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPSScraper.h; path = PerformanceMonitor/Classes/Scrapper/FPSScraper.h; sourceTree = "<group>"; };
+		B78FF200C1437A0DEC47A52AE95CFC86 /* Pods-UIOperater.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UIOperater.modulemap"; sourceTree = "<group>"; };
+		B7F834FFBE60FF10A6D26B5F19FE8AE6 /* Indicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Indicator.m; path = PerformanceMonitor/Classes/Indicator/Indicator.m; sourceTree = "<group>"; };
+		BE16913BA92D9AB28D0A7E2102F8DF95 /* Pods-UIOperater-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIOperater-Info.plist"; sourceTree = "<group>"; };
+		BE78C1BE7AB2BA6A7AA7C4AE7747956E /* Stage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Stage.m; path = PerformanceMonitor/Classes/Tools/Stage.m; sourceTree = "<group>"; };
+		BF4A1996C5197FA72C937CC1D95AA36A /* Pods-UIOperater-UIOperaterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIOperater-UIOperaterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5808E909A17C3ED8619230046A08C2B /* NetSpeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetSpeed.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/NetSpeed.h; sourceTree = "<group>"; };
+		C5D80A3007EF9AF965AE8597616C82D8 /* MemoryIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryIndicator.h; path = PerformanceMonitor/Classes/Indicator/MemoryIndicator.h; sourceTree = "<group>"; };
+		C814464B26449E9F75B3114D39C04F2E /* FPSScraper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FPSScraper.m; path = PerformanceMonitor/Classes/Scrapper/FPSScraper.m; sourceTree = "<group>"; };
+		C8DD9A0E1FA1800CB8628F6F8771D706 /* DMNetworkTrafficManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMNetworkTrafficManager.m; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMNetworkTrafficManager.m; sourceTree = "<group>"; };
+		CFDF0D2F64E7DACFC7A0DFE7BD6BF255 /* PFDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFDataManager.h; path = PerformanceMonitor/Classes/DataManager/PFDataManager.h; sourceTree = "<group>"; };
+		D093D295BF72067D32CD810516EE45F2 /* DMURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMURLSessionConfiguration.m; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMURLSessionConfiguration.m; sourceTree = "<group>"; };
+		D2219FABC39558266BEE3BE216E45C6D /* Pods-UIOperater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIOperater.debug.xcconfig"; sourceTree = "<group>"; };
+		D224A203AB881F0B68A742DE5BFC1CB0 /* DMNetworkTrafficManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMNetworkTrafficManager.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMNetworkTrafficManager.h; sourceTree = "<group>"; };
+		D471849EEA447A8691C58A7734891551 /* MemoryIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MemoryIndicator.m; path = PerformanceMonitor/Classes/Indicator/MemoryIndicator.m; sourceTree = "<group>"; };
+		DBB99BE382A5FFBFDD006FCDE9BBB4B7 /* TemperatureIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TemperatureIndicator.h; path = PerformanceMonitor/Classes/Indicator/TemperatureIndicator.h; sourceTree = "<group>"; };
+		DEE76E6AE543D763840FF3DAFFA465A3 /* PerfDogTrackerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PerfDogTrackerFactory.m; path = PerformanceMonitor/Classes/Factory/PerfDogTrackerFactory.m; sourceTree = "<group>"; };
+		E083513BCBD0BCB4A15E9AF9A6C41B53 /* PerfDogConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PerfDogConst.m; path = PerformanceMonitor/Classes/Indicator/PerfDogConst.m; sourceTree = "<group>"; };
+		E110047C6C0F3234CEB48CE2D3DFFC10 /* PerformanceMonitoriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformanceMonitoriOS.debug.xcconfig; sourceTree = "<group>"; };
+		E1510D26F9114AC08EA22D6A90B618D6 /* RecordTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordTracker.m; path = PerformanceMonitor/Classes/Tracker/RecordTracker.m; sourceTree = "<group>"; };
+		E28FA588D71AFD5346EBD3D8991516A3 /* Pods-UIOperater-UIOperaterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIOperater-UIOperaterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E418F6CA48AC063F979CF91189096EA5 /* PerformanceMonitoriOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformanceMonitoriOS-umbrella.h"; sourceTree = "<group>"; };
+		EBBE7CE9706A2DD30DBAEF87A313BDA9 /* DMDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMDataManager.h; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/network/DMDataManager.h; sourceTree = "<group>"; };
+		EEFDCF9616587B2F07A83093E5AB8DDA /* Pods-UIOperater-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIOperater-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0E091E140B9A009B69866722B143D41 /* PerformanceMonitoriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformanceMonitoriOS.release.xcconfig; sourceTree = "<group>"; };
+		F140C0FC0DE835267213AFE210DBDA6D /* Pods-UIOperater-UIOperaterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIOperater-UIOperaterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3DBC8709290E9A8D8D90B64471BDB6B /* PFTestInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PFTestInfo.m; path = PerformanceMonitor/Classes/TestInfo/PFTestInfo.m; sourceTree = "<group>"; };
+		F9F0A208026A0EE4BA25322796533FF9 /* DMURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMURLProtocol.m; path = PerformanceMonitor/Classes/Scrapper/NetMonitor/NetworkTraffic/DMURLProtocol.m; sourceTree = "<group>"; };
+		FC24830503A7BF075E737239A1B1EE31 /* MemScraper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MemScraper.m; path = PerformanceMonitor/Classes/Scrapper/MemScraper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040C4E5D3A8A778D696E8508ACD691E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0C367D60004A727DF44D4469AF0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A09C58F99DBD7698D4BE19E73390176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084A405380C3D3133F8A2A3764925D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78AB4F5E20EFC29B4BA845BBEE1605F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34DF862A8C95C480C8CD3E86645C892 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA6E4613D5045F280493ACC80D11564 /* Pods-UIOperater */ = {
+			isa = PBXGroup;
+			children = (
+				B78FF200C1437A0DEC47A52AE95CFC86 /* Pods-UIOperater.modulemap */,
+				67CB14F20A25EC960E7BD9CE9CF1653E /* Pods-UIOperater-acknowledgements.markdown */,
+				EEFDCF9616587B2F07A83093E5AB8DDA /* Pods-UIOperater-acknowledgements.plist */,
+				2B2920CFEE3149EC62041F6F26468435 /* Pods-UIOperater-dummy.m */,
+				BE16913BA92D9AB28D0A7E2102F8DF95 /* Pods-UIOperater-Info.plist */,
+				8F2D36FEBFED3EA0716FDEDF51C011E9 /* Pods-UIOperater-umbrella.h */,
+				D2219FABC39558266BEE3BE216E45C6D /* Pods-UIOperater.debug.xcconfig */,
+				873D8B81E8BC1010712F45CD30ABCC1D /* Pods-UIOperater.release.xcconfig */,
+			);
+			name = "Pods-UIOperater";
+			path = "Target Support Files/Pods-UIOperater";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		665D616CD9B086AD1FF05FE98D04919B /* Pods-UIOperater-UIOperaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637A0B7A75E04A909D1BB0C3F22B2F95 /* Pods-UIOperater-UIOperaterUITests.modulemap */,
+				BF4A1996C5197FA72C937CC1D95AA36A /* Pods-UIOperater-UIOperaterUITests-acknowledgements.markdown */,
+				3ABEA8A358EB3FA8AD76C79DBD476B91 /* Pods-UIOperater-UIOperaterUITests-acknowledgements.plist */,
+				37C69EDF6EF4D0054327A98041DADA3D /* Pods-UIOperater-UIOperaterUITests-dummy.m */,
+				337C25C1ACE75BA4305207FBCD6CC4B6 /* Pods-UIOperater-UIOperaterUITests-frameworks.sh */,
+				0C46271ECF26C8CB4EFDBF10FD811422 /* Pods-UIOperater-UIOperaterUITests-Info.plist */,
+				11DD024F0BE93E97C3F87C00F5F4819A /* Pods-UIOperater-UIOperaterUITests-umbrella.h */,
+				F140C0FC0DE835267213AFE210DBDA6D /* Pods-UIOperater-UIOperaterUITests.debug.xcconfig */,
+				E28FA588D71AFD5346EBD3D8991516A3 /* Pods-UIOperater-UIOperaterUITests.release.xcconfig */,
+			);
+			name = "Pods-UIOperater-UIOperaterUITests";
+			path = "Target Support Files/Pods-UIOperater-UIOperaterUITests";
+			sourceTree = "<group>";
+		};
+		9687C123108B5DADBF7B1283FC3BEC28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA6E4613D5045F280493ACC80D11564 /* Pods-UIOperater */,
+				665D616CD9B086AD1FF05FE98D04919B /* Pods-UIOperater-UIOperaterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4F03216C358AEB68C7994F121C76198 /* PerformanceMonitoriOS */ = {
+			isa = PBXGroup;
+			children = (
+				51B46495F7E2168413E04C26F6985168 /* BasicTracker.h */,
+				5D085E40D0B0FC933D84941EB500B6A2 /* BasicTracker.m */,
+				65C510B3D49B17DE72D14382EFA20525 /* BasicTrackerFactory.h */,
+				0CE8ACB2642F181873457D4D345B6E78 /* BasicTrackerFactory.m */,
+				541FDA5645DB159202F78E3B499BC739 /* CPUIndicator.h */,
+				2AE46560BD69C8A320DF135F621F74E4 /* CPUIndicator.m */,
+				8CA0348CFBCF0FD1EDC604E1A2195E0D /* CPUScraper.h */,
+				1708EEFF07AF048A848711CA379964AB /* CPUScraper.m */,
+				EBBE7CE9706A2DD30DBAEF87A313BDA9 /* DMDataManager.h */,
+				2C381F5FC51FCB9DCA05C6E06016C6A7 /* DMDataManager.m */,
+				4450278D0108312D15545C3F63B934EE /* DMDataManager+NetworkTraffic.h */,
+				5269AD4123C89FE92885DC5A4EA31479 /* DMDataManager+NetworkTraffic.m */,
+				58F5920D76B9CE55D9A20FB496B76E14 /* DMNetworkTrafficLog.h */,
+				AA988309AAA112F1043050D58EECB945 /* DMNetworkTrafficLog.m */,
+				D224A203AB881F0B68A742DE5BFC1CB0 /* DMNetworkTrafficManager.h */,
+				C8DD9A0E1FA1800CB8628F6F8771D706 /* DMNetworkTrafficManager.m */,
+				6236BF2D9BE6B139135BC9388FB30676 /* DMURLProtocol.h */,
+				F9F0A208026A0EE4BA25322796533FF9 /* DMURLProtocol.m */,
+				4122B0E21732C32BCB8114F5493AD2D0 /* DMURLSessionConfiguration.h */,
+				D093D295BF72067D32CD810516EE45F2 /* DMURLSessionConfiguration.m */,
+				7394B3ED3A0DA8E5F37106C72BA739FE /* EPDefine.h */,
+				0C3E231D4F6A49C88CD146A7D94E624E /* EPTestConfig.h */,
+				1777F83AC52B2DF206E39642E3462C1F /* EPTestConfig.m */,
+				1F70140E9651A27AE57021E370FAC887 /* FPSIndicator.h */,
+				611A166167B923A889157755F5B44203 /* FPSIndicator.m */,
+				B5A8835B69C51FB3B09C2F69A9A87767 /* FPSScraper.h */,
+				C814464B26449E9F75B3114D39C04F2E /* FPSScraper.m */,
+				14BBB83410D5CFA01BE927F0913C7F28 /* GZIP.h */,
+				958E3A01C0067D2CD5DDFFF05E444B2D /* Indicator.h */,
+				B7F834FFBE60FF10A6D26B5F19FE8AE6 /* Indicator.m */,
+				C5D80A3007EF9AF965AE8597616C82D8 /* MemoryIndicator.h */,
+				D471849EEA447A8691C58A7734891551 /* MemoryIndicator.m */,
+				6DEB5F77B7FDCC9883A01A57C4417C92 /* MemScraper.h */,
+				FC24830503A7BF075E737239A1B1EE31 /* MemScraper.m */,
+				C5808E909A17C3ED8619230046A08C2B /* NetSpeed.h */,
+				606BC95189056D17DF8332E121279B1C /* NetworkDownloadScraper.h */,
+				127B718859090775A8D7996CBF060DBE /* NetworkDownloadScraper.m */,
+				67218FF336C6ADE43F075C05773DD219 /* NetworkIndicator.h */,
+				B2293217B753DD044CEDB55373292A94 /* NetworkIndicator.m */,
+				85121AD20E0091767445716B576510E4 /* NetworkTracker.h */,
+				4ACD9DA0A0AD71B1BC28B9DC97488A91 /* NetworkTracker.m */,
+				5CD0065019C5763BEF1F5D25B7DD144E /* NetworkTrackerFactory.h */,
+				17377A8854AA82A023E8497CEF6558F5 /* NetworkTrackerFactory.m */,
+				07D5C8DCE3EA428280159DBC394DC2C8 /* NSData+GZIP.h */,
+				A64FE5CC00CFBF318BD253DD1755C910 /* NSData+GZIP.m */,
+				319B29221C1550D049FE725BD95975B7 /* NSDictionary+value.h */,
+				4329301A7441DF5483062775A4EC1D09 /* NSDictionary+value.m */,
+				33B2B3F1A59FED8071774360E7A14117 /* NSString+append.h */,
+				019F726414F36BE6822E417EE912862C /* NSString+append.m */,
+				4A5E78BFC61980E79DD89F9F09F4DE52 /* NSURLRequest+DoggerMonitor.h */,
+				2692792E2B8D2B48B8494C4738BBFF49 /* NSURLRequest+DoggerMonitor.m */,
+				7936524CC4AD5EE9A0D19A2D231148B0 /* NSURLResponse+DoggerMonitor.h */,
+				7D627635F246E0DD36D5AD6DA60BAF32 /* NSURLResponse+DoggerMonitor.m */,
+				9022871647B8DAEEC1DA93372948D69F /* PerfDogConst.h */,
+				E083513BCBD0BCB4A15E9AF9A6C41B53 /* PerfDogConst.m */,
+				17254DF5B2DF45434167D968C5E0F394 /* PerfDogIndicator.h */,
+				3D8DF960A8B8CD51D5627C0540BC98F6 /* PerfDogIndicator.m */,
+				3D3186C820E4B1C3FD1FEB26D542A56D /* PerfDogTracker.h */,
+				612F5A0187CFE3B4B97C3AB1CFD5D304 /* PerfDogTracker.m */,
+				5D7AD446F9A386CB60DF4631D8D1E0B3 /* PerfDogTrackerFactory.h */,
+				DEE76E6AE543D763840FF3DAFFA465A3 /* PerfDogTrackerFactory.m */,
+				57B31343D6CCF46A2D05628C4480BF96 /* PerformanceMonitor.h */,
+				0F7CE8BB56D43BE397AD4BB73BCC4024 /* PFAppInfo.h */,
+				28B38B14654B8A23AB404FC4E0C4B588 /* PFAppInfo.m */,
+				12E0BB57DCB9115E35265EFCFC4DADBD /* PFCaculator.h */,
+				5F2EB70F658E6CB57123ECFCF3036A01 /* PFCaculator.m */,
+				CFDF0D2F64E7DACFC7A0DFE7BD6BF255 /* PFDataManager.h */,
+				4D0C8AD6A168805FD402F4533FE73B1F /* PFDataManager.m */,
+				3298CA2686CAB6B51ABB6278CD3E0336 /* PFDeviceInfo.h */,
+				9827C87859B37178140F845EB034CC1B /* PFDeviceInfo.m */,
+				4CEB41E451DA3806896B7F8A68619E61 /* PFTestInfo.h */,
+				F3DBC8709290E9A8D8D90B64471BDB6B /* PFTestInfo.m */,
+				999421B4239C36AE1A96ED3C56881F82 /* RecordIndicator.h */,
+				0AC7D2DFCC265C18C18D3A55AFB93FBE /* RecordIndicator.m */,
+				34557D04D4D9E2BF62D7717255C01C81 /* RecordTracker.h */,
+				E1510D26F9114AC08EA22D6A90B618D6 /* RecordTracker.m */,
+				9D1915635F113C96F7DF0F80F9DD4120 /* RecordTrackerFactory.h */,
+				8277576F30E7D1D552203A5606D1135A /* RecordTrackerFactory.m */,
+				9C8837F72E1B1EB597729088204674C5 /* Stage.h */,
+				BE78C1BE7AB2BA6A7AA7C4AE7747956E /* Stage.m */,
+				DBB99BE382A5FFBFDD006FCDE9BBB4B7 /* TemperatureIndicator.h */,
+				3BD6D66B7680A3AB4B3EF486C51251C2 /* TemperatureIndicator.m */,
+				8C328243A667602B2E61F26277A0AA43 /* TemperatureTracker.h */,
+				5C1AF5A1F011B990842567238706CA78 /* TemperatureTracker.m */,
+				44C594E0066BCF1B3D008C9B527369D7 /* TemperatureTrackerFactory.h */,
+				6BC13802973E8EF8062E5FF00D7C8D96 /* TemperatureTrackerFactory.m */,
+				828447B8B534373E3DD97C61A8452AF0 /* Tracker.h */,
+				450867AE0DB925D85A15A5E552361FF9 /* Tracker.m */,
+				09CA8014E5371A7C22DA999362D90609 /* TrackerFactory.h */,
+				05655E91CEF12EE2C3D5527A582E45DA /* TrackerFactory.m */,
+				C10DDCD924FCBBA6338492D09CE63B27 /* Support Files */,
+			);
+			name = PerformanceMonitoriOS;
+			path = PerformanceMonitoriOS;
+			sourceTree = "<group>";
+		};
+		C10DDCD924FCBBA6338492D09CE63B27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21DE6E961A7D2527D7A6D265F69D27FB /* PerformanceMonitoriOS.modulemap */,
+				4F24748DFB937E686D61A7E8D64BF6A3 /* PerformanceMonitoriOS-dummy.m */,
+				9D8672A73287D639210E31D6DA7F9BB8 /* PerformanceMonitoriOS-Info.plist */,
+				A9D9482EAC8258BE20FE26EF3C573DA3 /* PerformanceMonitoriOS-prefix.pch */,
+				E418F6CA48AC063F979CF91189096EA5 /* PerformanceMonitoriOS-umbrella.h */,
+				E110047C6C0F3234CEB48CE2D3DFFC10 /* PerformanceMonitoriOS.debug.xcconfig */,
+				F0E091E140B9A009B69866722B143D41 /* PerformanceMonitoriOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PerformanceMonitoriOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CFA96DFE3995834330D1941ACEDDD71A /* Pods */,
+				F7C97421F795863773776D31C8FC5425 /* Products */,
+				9687C123108B5DADBF7B1283FC3BEC28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA96DFE3995834330D1941ACEDDD71A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4F03216C358AEB68C7994F121C76198 /* PerformanceMonitoriOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7C97421F795863773776D31C8FC5425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8A7F5CC6E74FB6335D41F60E82E88 /* PerformanceMonitoriOS */,
+				31E33498B62E4D6312AB8A0D4402C42D /* Pods-UIOperater */,
+				A45BB6BC2454AAD4DDAF273FD815B396 /* Pods-UIOperater-UIOperaterUITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FA720AF11E665073AB42E8170838187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E36CBDD35DC820590687DD6027F0FB9 /* BasicTracker.h in Headers */,
+				C914FEE42150ED0079641E21344A9EED /* BasicTrackerFactory.h in Headers */,
+				6ABF83C6204BF5A4240DC520AE336223 /* CPUIndicator.h in Headers */,
+				42456D968A86368FC5C73CAAA7AF3DE3 /* CPUScraper.h in Headers */,
+				31D98AE2EE7EE431C8A7FC1D65BFB719 /* DMDataManager.h in Headers */,
+				CF7BE10D5B5F79DB2802668EB70AE826 /* DMDataManager+NetworkTraffic.h in Headers */,
+				F0511A11BBC9390B2984E1147C16A3BD /* DMNetworkTrafficLog.h in Headers */,
+				9373395BFE6B7EB1B6E073B69B294FE3 /* DMNetworkTrafficManager.h in Headers */,
+				9A426C048B0D3AD16DD277459B510E08 /* DMURLProtocol.h in Headers */,
+				6C758845ABFA2CD1B1BACFC57096F8CF /* DMURLSessionConfiguration.h in Headers */,
+				499867274FD2E4D2110ACE3937EC01A0 /* EPDefine.h in Headers */,
+				6CEDC7525BE4E01295D9DC9F3FABAE18 /* EPTestConfig.h in Headers */,
+				C1955FC10AF028BAF1379784E784310D /* FPSIndicator.h in Headers */,
+				20874CABF151EE5F31E872278CC28CD3 /* FPSScraper.h in Headers */,
+				41BEF8D0FA1537925E48C0C6EA875199 /* GZIP.h in Headers */,
+				23ACFC2A26FFDB710BF040BD452A111C /* Indicator.h in Headers */,
+				625EC3B553A6451407F7A49E148693E5 /* MemoryIndicator.h in Headers */,
+				A191B3D863D1B83F916B4328D9E3F815 /* MemScraper.h in Headers */,
+				727C5B06AF268848E90F4726EE400479 /* NetSpeed.h in Headers */,
+				4E9CBE28375331831B03F2EC4F420875 /* NetworkDownloadScraper.h in Headers */,
+				94F328300E76E6EDA30B1CD5A804A468 /* NetworkIndicator.h in Headers */,
+				1208D47A3974E872EA39D46070F29CC2 /* NetworkTracker.h in Headers */,
+				DB62DF8AED6F674F12B41ABFB43A7E94 /* NetworkTrackerFactory.h in Headers */,
+				6E6BFD6A3BD53620DD7EAFF093370A74 /* NSData+GZIP.h in Headers */,
+				0829B239BB0526F41F177BABB8F3B4E7 /* NSDictionary+value.h in Headers */,
+				C7B8634F7618BBCD384D1C0036F70BD4 /* NSString+append.h in Headers */,
+				F66F7D45C73BBC7CB0C850838DD55B1A /* NSURLRequest+DoggerMonitor.h in Headers */,
+				61B99120F29EF2712A5A4711FA827532 /* NSURLResponse+DoggerMonitor.h in Headers */,
+				9B3B2D49C63451780D1A4DB4E3D151A0 /* PerfDogConst.h in Headers */,
+				366C455985041E9CE360B0E2B424CE38 /* PerfDogIndicator.h in Headers */,
+				D22672869C70A80D7BF404ABB66BA0D7 /* PerfDogTracker.h in Headers */,
+				65A8A88A995A309235B08C7A21B2BD84 /* PerfDogTrackerFactory.h in Headers */,
+				9A555FB47BEFA17839DC82F00FFB4E0F /* PerformanceMonitor.h in Headers */,
+				C7AF6CF7BE47DC0AB640B198A70520D2 /* PerformanceMonitoriOS-umbrella.h in Headers */,
+				F783C743EB6BEC94520F35F12460F171 /* PFAppInfo.h in Headers */,
+				F31D3F1F63D9E5FCB45D0BE9B340B295 /* PFCaculator.h in Headers */,
+				2FFA8F8D97F1477C09B5D418CC3ECA81 /* PFDataManager.h in Headers */,
+				7A923CD0A55125CC1381AD94C64EE18B /* PFDeviceInfo.h in Headers */,
+				B04907A2CE4A5FF4A7590A28E1C54EB4 /* PFTestInfo.h in Headers */,
+				7523865293F464FFD62257B8923CBFD0 /* RecordIndicator.h in Headers */,
+				6113EAF525BFD18AC396E99F36A26E0E /* RecordTracker.h in Headers */,
+				8AF61A7A48220A33EB64688EA91B2E6E /* RecordTrackerFactory.h in Headers */,
+				086F45EA03B544FB250D6B31B3E28B2B /* Stage.h in Headers */,
+				037EF064071CF514E7F5A74A4EC56F4C /* TemperatureIndicator.h in Headers */,
+				092EA0574CB76B2E1FAD4541EFE48496 /* TemperatureTracker.h in Headers */,
+				5879933E35E260607497594AF9819AA5 /* TemperatureTrackerFactory.h in Headers */,
+				54AD8FB21A794B66DF8137DC178BA946 /* Tracker.h in Headers */,
+				181EEFA13792FD0B6F7D7A108D258875 /* TrackerFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1455F60A21971C1BEB4FA73B6DC5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4019D64D60F4C5CBF1D2E880DC07CE2D /* Pods-UIOperater-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC124DDA99275E07C673F5CBBCFF0455 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84480BD5F59AC6D43BE24A1C05BB9C /* Pods-UIOperater-UIOperaterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C94B5DC026B21174BF21C889AEC9A21 /* Pods-UIOperater-UIOperaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAB16461FBBF27F11753AF970AC833F /* Build configuration list for PBXNativeTarget "Pods-UIOperater-UIOperaterUITests" */;
+			buildPhases = (
+				BC124DDA99275E07C673F5CBBCFF0455 /* Headers */,
+				355CB377AF9CC228919A2DC26A87C3BB /* Sources */,
+				9A09C58F99DBD7698D4BE19E73390176 /* Frameworks */,
+				57CAF67CB0CF88FE1CED709288B5A1EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509EA42985CC5C3836D01A119CC697C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-UIOperater-UIOperaterUITests";
+			productName = Pods_UIOperater_UIOperaterUITests;
+			productReference = A45BB6BC2454AAD4DDAF273FD815B396 /* Pods-UIOperater-UIOperaterUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		835EB6E17D4DB195639E7BC081168010 /* Pods-UIOperater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257EA4561FDC2C12446835E0A0886DBE /* Build configuration list for PBXNativeTarget "Pods-UIOperater" */;
+			buildPhases = (
+				4D1455F60A21971C1BEB4FA73B6DC5AD /* Headers */,
+				83FC652D574D53DDE82D46935C4FF62B /* Sources */,
+				B78AB4F5E20EFC29B4BA845BBEE1605F /* Frameworks */,
+				11D623281816862B7ECFBDEF7522BCF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UIOperater";
+			productName = Pods_UIOperater;
+			productReference = 31E33498B62E4D6312AB8A0D4402C42D /* Pods-UIOperater */;
+			productType = "com.apple.product-type.framework";
+		};
+		F37CA775E28D46B8BFA4CDBB017FDCFE /* PerformanceMonitoriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7BDFA0DFE4130293394CC698DB70AB /* Build configuration list for PBXNativeTarget "PerformanceMonitoriOS" */;
+			buildPhases = (
+				1FA720AF11E665073AB42E8170838187 /* Headers */,
+				BA25266B3D746AFCF0F5B681948FC109 /* Sources */,
+				040C4E5D3A8A778D696E8508ACD691E5 /* Frameworks */,
+				C8F9B90B3021E52C9F80D733400BAA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformanceMonitoriOS;
+			productName = PerformanceMonitoriOS;
+			productReference = ABA8A7F5CC6E74FB6335D41F60E82E88 /* PerformanceMonitoriOS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F7C97421F795863773776D31C8FC5425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F37CA775E28D46B8BFA4CDBB017FDCFE /* PerformanceMonitoriOS */,
+				835EB6E17D4DB195639E7BC081168010 /* Pods-UIOperater */,
+				4C94B5DC026B21174BF21C889AEC9A21 /* Pods-UIOperater-UIOperaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D623281816862B7ECFBDEF7522BCF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CAF67CB0CF88FE1CED709288B5A1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F9B90B3021E52C9F80D733400BAA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		355CB377AF9CC228919A2DC26A87C3BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB1C6C08F58B6582B1D1CDF7589BDBA /* Pods-UIOperater-UIOperaterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FC652D574D53DDE82D46935C4FF62B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B96AEDC66150507DD3E79F886FB24F /* Pods-UIOperater-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA25266B3D746AFCF0F5B681948FC109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F865DEE589413B93C0334B93A7281846 /* BasicTracker.m in Sources */,
+				EA4AD8D3A0DE2AF9B6B00E53264DA75B /* BasicTrackerFactory.m in Sources */,
+				A2E84D339C2570FC1C0C7BFF54220787 /* CPUIndicator.m in Sources */,
+				076A34F1FC2BD5F51DE8AFAE93E8ACBD /* CPUScraper.m in Sources */,
+				BD3EC040647243A0ECD7BFF4D9997F27 /* DMDataManager.m in Sources */,
+				70D6DAFB850484ADFB13BB57BD54BED3 /* DMDataManager+NetworkTraffic.m in Sources */,
+				208FC1F6277C6F6E1BC0C528FEB9C55C /* DMNetworkTrafficLog.m in Sources */,
+				005F26E4F6982DD5D35BE3605652F218 /* DMNetworkTrafficManager.m in Sources */,
+				008417E063B709C3A794AF73AF65F7DE /* DMURLProtocol.m in Sources */,
+				6629FBDC7C4578CDEACF5A5B460A7DF9 /* DMURLSessionConfiguration.m in Sources */,
+				BBC7625D9921EA2BF980C42099CC1E32 /* EPTestConfig.m in Sources */,
+				66D64AF7A0748AC03807E6B94B7EB32B /* FPSIndicator.m in Sources */,
+				F18F19FBB57A614B76449632F5AF7F9E /* FPSScraper.m in Sources */,
+				297593302E9B8FDD7460589D0CD15135 /* Indicator.m in Sources */,
+				9C7868B7AFE469E0193A1921270A85BD /* MemoryIndicator.m in Sources */,
+				06AB62EF8805757637599971AD5806A1 /* MemScraper.m in Sources */,
+				4E90A46DCE5B71107BD505A2A38F9BAB /* NetworkDownloadScraper.m in Sources */,
+				623BC0BEE250E079C36D6026B1CE7183 /* NetworkIndicator.m in Sources */,
+				99B96AF33CB0C031BE060F6B389DD8DF /* NetworkTracker.m in Sources */,
+				4613DBE5CA52C1DA54E035F125B03A0B /* NetworkTrackerFactory.m in Sources */,
+				9AF1363D1116CE744C8BA5D089A5A26C /* NSData+GZIP.m in Sources */,
+				085881DEEE20D31099F7D9A6183910BE /* NSDictionary+value.m in Sources */,
+				9CA23CFA6654844147438AC747CFC2CA /* NSString+append.m in Sources */,
+				8D34BA9C6E5F2DF286ECFC7490BD76FB /* NSURLRequest+DoggerMonitor.m in Sources */,
+				1E6727E3ABFC0AC6F21CFF3D42DF28C8 /* NSURLResponse+DoggerMonitor.m in Sources */,
+				49EBFCF3A5CE19963FD1FD5A56E9674B /* PerfDogConst.m in Sources */,
+				61A1C38503FAA7F08202AC4191155061 /* PerfDogIndicator.m in Sources */,
+				8770FD3AE618784070A290036106A60B /* PerfDogTracker.m in Sources */,
+				AC6E9CD1302D06C924D0DDF363FE1A52 /* PerfDogTrackerFactory.m in Sources */,
+				12EF022F5CB59386B59ADFF3A09D4C04 /* PerformanceMonitoriOS-dummy.m in Sources */,
+				855C9125E73C81D09503A3091EB28241 /* PFAppInfo.m in Sources */,
+				0738695AA1BE3E2D3D210CDFEDC498FA /* PFCaculator.m in Sources */,
+				3BC95CBA4C5C3B3F8A9AFA837FBFA08F /* PFDataManager.m in Sources */,
+				F48E662C2D47AFCF3937D641F6D6574A /* PFDeviceInfo.m in Sources */,
+				692949C66B068E8C2784A126FA664A77 /* PFTestInfo.m in Sources */,
+				4033BD8DAAE696F2C195AA2DA43ED88F /* RecordIndicator.m in Sources */,
+				221D42CACBEC95EAFA835AE77ED5E7B4 /* RecordTracker.m in Sources */,
+				561D6037D45D538FB4494CF741319F4C /* RecordTrackerFactory.m in Sources */,
+				7E0BBBB593F0E785FD05690D0DFED365 /* Stage.m in Sources */,
+				CA3C4800B89BB65AE26F3A04FEF3D2E7 /* TemperatureIndicator.m in Sources */,
+				7F169ACED4CD711DD6834CFF414E477F /* TemperatureTracker.m in Sources */,
+				91C2572D10B8BF853553A26140C14E08 /* TemperatureTrackerFactory.m in Sources */,
+				B0F71D6BEC2925093D55BDB0C1AA7C8E /* Tracker.m in Sources */,
+				4BDF2A5E84395E51D09B16066D6A9A2E /* TrackerFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		509EA42985CC5C3836D01A119CC697C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PerformanceMonitoriOS;
+			target = F37CA775E28D46B8BFA4CDBB017FDCFE /* PerformanceMonitoriOS */;
+			targetProxy = 99305C5605C86F3FA394D6305AB801C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063721DE1929E53FF1BEC42932D4A11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2219FABC39558266BEE3BE216E45C6D /* Pods-UIOperater.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIOperater/Pods-UIOperater-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIOperater/Pods-UIOperater.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CB2E48535449604344F0A87272D95FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E110047C6C0F3234CEB48CE2D3DFFC10 /* PerformanceMonitoriOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS.modulemap";
+				PRODUCT_MODULE_NAME = PerformanceMonitoriOS;
+				PRODUCT_NAME = PerformanceMonitoriOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D22EB51CE863C0AC081F67290C3FE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873D8B81E8BC1010712F45CD30ABCC1D /* Pods-UIOperater.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIOperater/Pods-UIOperater-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIOperater/Pods-UIOperater.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		469DB8B13A44E8DCC2F69C3683520D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E091E140B9A009B69866722B143D41 /* PerformanceMonitoriOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PerformanceMonitoriOS/PerformanceMonitoriOS.modulemap";
+				PRODUCT_MODULE_NAME = PerformanceMonitoriOS;
+				PRODUCT_NAME = PerformanceMonitoriOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C3E6449C7210D408C1A85496DDDA5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F140C0FC0DE835267213AFE210DBDA6D /* Pods-UIOperater-UIOperaterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIOperater-UIOperaterUITests/Pods-UIOperater-UIOperaterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIOperater-UIOperaterUITests/Pods-UIOperater-UIOperaterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D07FB8B1E1CD2CF268A41F983A27996B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E28FA588D71AFD5346EBD3D8991516A3 /* Pods-UIOperater-UIOperaterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UIOperater-UIOperaterUITests/Pods-UIOperater-UIOperaterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UIOperater-UIOperaterUITests/Pods-UIOperater-UIOperaterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257EA4561FDC2C12446835E0A0886DBE /* Build configuration list for PBXNativeTarget "Pods-UIOperater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063721DE1929E53FF1BEC42932D4A11B /* Debug */,
+				1D22EB51CE863C0AC081F67290C3FE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAB16461FBBF27F11753AF970AC833F /* Build configuration list for PBXNativeTarget "Pods-UIOperater-UIOperaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3E6449C7210D408C1A85496DDDA5D2 /* Debug */,
+				D07FB8B1E1CD2CF268A41F983A27996B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7BDFA0DFE4130293394CC698DB70AB /* Build configuration list for PBXNativeTarget "PerformanceMonitoriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB2E48535449604344F0A87272D95FE /* Debug */,
+				469DB8B13A44E8DCC2F69C3683520D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,213 @@
+{"projectId": "mttlitePerfTest","productName": "QQ浏览器iOS","launchVC": "MttFeedsViewController",
+    "setup": {
+            "com.tencent.mttlite": [
+                "Launch/testFirstLaunch"
+            ],
+            "com.baidu.BaiduMobile": [
+                "Launch/testBaiduFirstLaunch"
+            ],
+            "com.ucweb.iphone.lowversion": [
+                "Launch/testUCFirstLaunch"
+            ],
+            "com.yueyou.cyreader": [
+                "Launch/testQiMaoFirstLaunch"
+            ]
+        },
+        "suit": {
+            "com.tencent.mttlite": {
+                "Launch/testPerfdog": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchStartPageCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchStartPageFPS": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchRankCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchRankFPS": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchResultCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"SearchTests/testSearchResultFPS": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testBottomTabCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testBottomTabFPS": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testBookShellTabCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testBookShellTabFPS": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testOpenNovelCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testOpenNovelFPS": {
+                    "type": 0,
+                    "time": 2
+                },"NovelTests/testOpenNovelFPS": {
+                    "type": 0,
+                    "time": 2
+                },"SearchCommonTests/testSearchStartPageSwiftCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"InformationFlowTests/testUrlOpenTLCpuMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"InformationFlowTests/testUrlOpenVideoFloatingLayerCPUMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"InformationFlowTests/testUrlOpenPersonalDataCardCPUMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"InformationFlowTests/testURLPicAndInfoCPUMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"IncreaseTests/testUrlOpenPushLandingPagePerfDog": {
+                    "type": 0,
+                    "time": 2
+                },"QBInformationFIowTests/testTLFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                },"QBInformationFIowTests/testVideoFloatingLayerFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                },"NovelComonTests/testTurnThePagesLeftAndRightnovel": {
+                    "type": 0,
+                    "time": 2,
+                    "setup":"NovelComonTests/testTurnThePagesOfNovelPre"
+                },"NovelComonTests/testTurnThePagesOfNovelUpDown": {
+                    "type": 0,
+                    "time": 2,
+                    "setup":"NovelComonTests/testTurnThePagesOfNovelPre"
+                },"CommercializationTests/testGameTabCpuAndMemory": {
+                    "type": 0,
+                    "time": 2
+                },"CommercializationTests/testGameTabFPS": {
+                    "type": 0,
+                    "time": 2
+                },"CommercializationTests/testPropsMallCpuAndMemoryAndFPS": {
+                    "type": 0,
+                    "time": 2
+                },"LongVideoTests/testSlideVideoCPUMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"LongVideoTests/testUrlOpenTheaterCpuAndMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"LongVideoTests/testTheaterWatchListCpuandMemoryFPS": {
+                    "type": 0,
+                    "time": 2
+                },"LiveVideoTests/testLiveVideoCpuAndMemoryAndFPS": {
+                    "type": 0,
+                    "time": 2
+                },"MyMiniProgramTests/testMyMiniProgramCpuAndMemoryAndFPS": {
+                    "type": 0,
+                    "time": 2,
+                    "setup":"MyMiniProgramTests/testMyMiniProgramPre"
+                },"ServiceHallTests/testServiceHallCpuAndMemoryAndPFS": {
+                    "type": 0,
+                    "time": 2
+                },"QBLongVideoTests/testQBLongVideoSlideCPUMemoryFPSDownSpeedUpSpeed": {
+                    "type": 0,
+                    "time": 2
+                },"LiveVideoTests/testLiveVideoTimeConsume":{
+                    "type": 2,
+                    "time": 1,
+                    "marked_pic":true
+                },"SearchTests/testDiff11250CpuAndMemory": {
+                    "type": 0,
+                    "time": 2,
+                    "setup":"SearchTests/test11250Pre"
+                },
+                "SearchTests/testDiff11400CpuAndMemory": {
+                    "type": 0,
+                    "time": 2,
+                    "setup":"SearchTests/test11400Pre"
+                },
+                "SearchTests/testSearchRankMS": {
+                    "type": 2,
+                    "time": 1,
+                    "marked_pic":true
+                }
+            },
+            "com.ucweb.iphone.lowversion": {
+                "UCInformationFIowTests/testTLFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                }, "UCInformationFIowTests/testVideoFloatingLayerFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.baidu.BaiduMobile": {
+                "BaiduInformationFIowTests/testTLFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                },"BaiduInformationFIowTests/testVideoFloatingLayerFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.ss.iphone.article.News": {
+                "ToutiaoInformationFIowTests/testTLFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                },"ToutiaoInformationFIowTests/testVideoFloatingLayerFPSPerfDog": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.yueyou.cyreader": {
+                "QimaoNovelTests/testTurnThePagesLeftAndRightnovel": {
+                    "type": 0,
+                    "time": 2
+                },
+                "QimaoNovelTests/testTurnThePagesOfNovelUpDown": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.dragon.read": {
+                "FanqieNovelTests/testTurnThePagesLeftAndRightnovel": {
+                    "type": 0,
+                    "time": 2
+                },
+                "FanqieNovelTests/testTurnThePagesOfNovelUpDown": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.tencent.submarine": {
+                "PDDLongVideoTests/testLongVideoSlideCPUMemoryFPSDownspeedUpspeed": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.jiangjia.gif": {
+                "KuaishouLongVideoTests/testLongVideoSlideCPUMemoryFPSDownspeedUpspeed": {
+                    "type": 0,
+                    "time": 2
+                }
+            },
+            "com.ss.iphone.ugc.Aweme": {
+                "DouyinLongVideoTests/testLongVideoSlideCPUMemoryFPSDownSpeedUpSpeed": {
+                    "type": 0,
+                    "time": 2
+                }
+            }
+        }
+
+}
